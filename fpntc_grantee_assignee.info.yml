@@ -1,0 +1,5 @@
+name: Fpntc grantee assignee
+type: module
+description: Assigns grantee to user based on user zip code
+core: 8.x
+package: fpntc

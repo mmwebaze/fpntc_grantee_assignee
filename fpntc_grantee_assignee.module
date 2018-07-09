@@ -1,0 +1,15 @@
+<?php
+use \Drupal\fpntc_grantee_assignee\util\Util;
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function fpntc_grantee_assignee_user_presave(Drupal\Core\Entity\EntityInterface $entity) {
+
+  $zipcode = $entity->field_zip_code->value;
+  $tid = Util::getTaxonomy($zipcode);
+
+  if ($tid != 0){
+    $entity->set('field_grantees', $tid);
+  }
+}

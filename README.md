@@ -8,7 +8,7 @@ Assigns grantee to a user.
 <li>Make sure the field <b>zip codes (machine name: field_zip_codes)</b> has been added to the <b>grantees</b> vocabulary</li>
 </ol>
 
-##What the module does and how to use it
+## What the module does and how to use it
 
 <ul>
 <li>Migrates taxonomies from csv file located in the <b>public://</b> folder. Run: lando drush gac</li>

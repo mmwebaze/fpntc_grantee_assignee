@@ -5,7 +5,7 @@ Assigns grantee to a user.
 
 <ol>
 <li>lando drush en fpntc_grantee_assignee -y</li>
-<li>Make sure the field <b>zip codes (machine name: field_zip_codes)</b> has been added to the <b>grantees</b> vocabulary</li>
+<li>Make sure the field <b>zip codes (machine name: field_zip_codes of type text)</b> has been added to the <b>grantees</b> vocabulary</li>
 </ol>
 
 ## What the module does and how to use it
